@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dev
+data:
+  CONNECTION_STRING: "dev db connection string"
+  USERNAME: "dev-user"
+  HOSTNAME: "dev-host"
+  URI: "dev-test.com"
+  URL: "dev-test.com/index.html"
